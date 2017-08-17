@@ -1,0 +1,20 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Juha Liikala | Front-End Engineer | Oulu, Finland"
+theme = "itsmejuhaco"
+
+[permalinks]
+	fixed = ":title/"
+	blog  = ":slug/"
+
+[params]
+	author = "Juha Liikala"
+	description = "Personal online home of Juha Liikala"
+	latestpostscount = 5
+	title = "Juha Liikala"
+	email = "sayhello@itsmejuha.co"
+	twitter ="juhaliikala"
+	instagram = "nomadcouch"
+	linkedin = "juhaliikala"
+	facebook = "juhaliikala"
+	avatar = "img/profile.png"
