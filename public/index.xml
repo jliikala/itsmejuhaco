@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Juha Liikala</title>
-    <link>/</link>
+    <link>https://www.itsmejuha.co/</link>
     <description>Recent content on Juha Liikala</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Aug 2017 14:21:08 +0300</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.itsmejuha.co/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About me</title>
-      <link>/about/</link>
+      <link>https://www.itsmejuha.co/about/</link>
       <pubDate>Tue, 22 Aug 2017 14:21:08 +0300</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://www.itsmejuha.co/about/</guid>
       <description>Hi I&amp;rsquo;m Juha Liikala. I&amp;rsquo;ve been doing what I do for quite a while now. In fact, it&amp;rsquo;s been nearly fifteen years since I started &amp;ldquo;working on the web&amp;rdquo; for a living.
 Most of my working days go by swimming in the sea of front-end web technologies (and hopefully, trying to stay afloat).
 Travel has been part of my DNA ever since my parents first took me abroad back in the 80&amp;rsquo;s.</description>
