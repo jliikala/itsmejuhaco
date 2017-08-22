@@ -6,7 +6,6 @@
     <title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <base href="{{ .Site.BaseURL }}">
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
@@ -14,6 +13,7 @@
 
     {{ partial "tw-meta.html" . }}
     {{ partial "fb-meta.html" . }}
+    {{ if .IsHome }}{{ partial "google-meta.html" . }}{{ end }}
 
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
     
