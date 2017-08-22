@@ -12,7 +12,7 @@ enableEmoji = true
 [params]
 	author = "Juha Liikala"
 	description = "Personal online home of Juha Liikala"
-	coverimage = "images/juhaheader.jpg"
+	coverimage = "https://itsmejuha.co/images/juhaheader.jpg"
 	latestpostscount = 5
 	title = "Juha Liikala"
 	email = "sayhello@itsmejuha.co"
@@ -20,6 +20,6 @@ enableEmoji = true
 	instagram = "nomadcouch"
 	linkedin = "juhaliikala"
 	facebook = "juhaliikala"
-	avatar = "images/avatar_400x400.jpg"
+	avatar = "https://itsmejuha.co/images/avatar_400x400.jpg"
 	FBPage = "https://www.facebook.com/itsmejuhaco/"
 	FBAuthor = "https://www.facebook.com/JuhaLiikala/"
