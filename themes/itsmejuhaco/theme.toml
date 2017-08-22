@@ -3,11 +3,11 @@ name = "itsmejuhaco"
 license = "MIT"
 licenselink = "https://github.com/jliikala/itsmejuhaco/blob/master/LICENSE.md"
 description = "Hugo theme for itsemejuha.co"
-homepage = "https://itsmejuha.co/"
+homepage = "https://www.itsmejuha.co/"
 tags = []
 features = []
 min_version = "0.26"
 
 [author]
   name = "Juha Liikala"
-  homepage = "https://itsmejuha.co/"
+  homepage = "https://www.itsmejuha.co/"

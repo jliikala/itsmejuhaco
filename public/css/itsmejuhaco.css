@@ -151,10 +151,36 @@ pre > code {
   padding: 0 1rem;
 }
 
+.clear {
+  clear: both;
+}
+
 .rss-link {
   letter-spacing: 0;
 }
 
 .container .work-feat {
   margin: 20px 0;
+}
+
+.author {
+  margin-top: 60px;
+  border-bottom: 1px solid #ddd;
+}
+
+.author img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  float: left;
+}
+
+.author p {
+  padding-left: 120px;
+}
+
+.twitter-follow-button {
+  vertical-align: middle;
+  display: inline-block;
 }

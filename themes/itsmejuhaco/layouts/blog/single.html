@@ -7,16 +7,20 @@
 <div class="main">
 <small class="backlink"><strong>← <a href="{{ .Site.BaseURL }}">Back home</a></strong></small>
 <article>
-	{{ if .Params.featImage }}
-	<img src="{{ $.Param "featImage" }}" class="post-image" />
-	{{ end }}
 	<h1>{{ .Title }}</h1>
   <small class="post-meta">Written by <a href="{{ .Site.BaseURL }}about">Juha  </a> on
   <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ .Date.Format "02 January 2006" }}</time></small>
 		
-	<p id="post-description">{{ .Description }}</p>
   	{{ .Content }}
   	
+  	<div class="author">
+  		<img src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}">	
+  		<p><strong>I'm <a href="">Juha Liikala</a></strong>, a front-end developer, blogger and a web maker for over a decade. When I'm not busy working or <a href="https://instagram.com/nomadcouch/">on the road adventuring</a>, this is where you'll find me pushing out new stuff for the interwebs. <a class="twitter-follow-button" href="https://twitter.com/JuhaLiikala" data-size="large" class="follow-btn">Follow @JuhaLiikala</a></p>
+  		
+  		<div class="clear"></div>
+  	</div>
+  	<h3>📩 Blog Updates</h3>
+  	<p>Want to get notified via email when I publish something new? <a href="http://eepurl.com/cxqFQr">Join my personal email list here.</a> <strong>Unsubscribe anytime.</strong></p>
   </article>
 
 </div> <!-- main -->

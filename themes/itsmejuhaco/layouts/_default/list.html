@@ -4,6 +4,7 @@
 {{ partial "header.html" . }}
 
 <div class="main">
+<small class="backlink"><strong>← <a href="{{ .Site.BaseURL }}">Back home</a></strong></small>
 <h1>Archives</h1>
   <ul id="page-list">
     {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse) }}

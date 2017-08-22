@@ -1,0 +1,10 @@
+<!-- FB Meta -->
+<meta property="fb:app_id" content="1742164539144235">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
+<meta property="og:image" content="{{ if $.Param "featimg" }}{{ $.Param "featimg" }}{{ else }}{{ .Site.Params.coverimage }}{{ end }}">
+<meta property="og:description" content="{{ if .IsPage }}{{ $.Param "description" }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="article:author" content="{{ .Site.Params.FBAuthor }}">
+<meta property="article:publisher" content="{{ .Site.Params.FBPage }}">

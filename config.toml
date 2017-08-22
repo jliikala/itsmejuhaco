@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Juha Liikala | Front-End Engineer | Oulu, Finland"
 theme = "itsmejuhaco"
 
+enableEmoji = true
+
 [permalinks]
 	fixed = ":title/"
 	blog  = ":slug/"
@@ -10,6 +12,7 @@ theme = "itsmejuhaco"
 [params]
 	author = "Juha Liikala"
 	description = "Personal online home of Juha Liikala"
+	coverimage = "images/juhaheader.jpg"
 	latestpostscount = 5
 	title = "Juha Liikala"
 	email = "sayhello@itsmejuha.co"
@@ -17,4 +20,6 @@ theme = "itsmejuhaco"
 	instagram = "nomadcouch"
 	linkedin = "juhaliikala"
 	facebook = "juhaliikala"
-	avatar = "img/profile.png"
+	avatar = "images/avatar_400x400.jpg"
+	FBPage = "https://www.facebook.com/itsmejuhaco/"
+	FBAuthor = "https://www.facebook.com/JuhaLiikala/"
