@@ -1,8 +1,8 @@
 ---
 title: "About me"
-date: 2017-08-17T12:41:08+03:00
-draft: true
-featimg: "https://images.unsplash.com/photo-1502913048346-bf7eaff5a421?dpr=1&auto=format&fit=crop&w=1500&h=844&q=80&cs=tinysrgb&crop="
+date: 2017-08-22T14:21:08+03:00
+draft: false
+featimg: "images/juhaheader.jpg"
 description: "Juha Liikala is a front-end developer, blogger &amp; web maker for over a decade."
 ---
 
