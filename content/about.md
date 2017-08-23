@@ -1,6 +1,6 @@
 ---
 title: "About me"
-date: 2017-08-22T14:21:08+03:00
+date: 2017-08-23T16:13:08+03:00
 draft: false
 featimg: "https://itsmejuha.co/images/juhaheader.jpg"
 description: "Juha Liikala is a front-end developer, blogger &amp; web maker for over a decade."
@@ -16,9 +16,9 @@ Travel has been part of my DNA ever since my parents first took me abroad back i
 
 ### Office Hours
  
-* **9 to 5** - I'm currently working for Synopsys in a front-end / UX role, building tools that help [make software safer](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html).
-* **Freelancing** - I have very limited time nowadays for freelancing, but if you have <strong>something extra special</strong> in mind, [don't hesitate to get in touch](mailto:sayhello@itsmejuha.co).
-* **Side Projects &amp; partnerships** - For the time being, this blog + a online course (topic still under wraps).
+* **9 to 5** - I'm currently doing front-end development & product design at Synopsys, Inc., building tools that help [make software safer](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html).
+* **Freelancing &amp; partnerships** - I have very limited time nowadays for freelancing, but if you have <strong>something extra special</strong> in mind, [don't hesitate to get in touch](mailto:sayhello@itsmejuha.co).
+* **Side Projects** - For the time being, this blog + [this newsletter](http://eepurl.com/cxqFQr)
 
 ### OoO (Out of Office)
 
@@ -28,9 +28,9 @@ Nobody wants to (or should) be in workmode all the time. When I'm not nerding ou
 
 ### GET UPDATES & CONNECT
 
-* **Blog Updates** – [signup here](http://eepurl.com/cxqFQr) and I’ll send you a friendly note each time I publish something new on this blog.
+* **Newsletter** – [signup here](http://eepurl.com/cxqFQr) and I’ll send you a friendly note each time I publish something new on this blog.
 * **RSS feed updates** – get all the latest post headlines with your favorite feed reader (Feedly is my favorite).
-* Or, connect on [Twitter](https://twitter.com/juhaliikala/), [LinkedIn](https://www.linkedin.com/in/juhaliikala) or [Instagram](https://www.instagram.com/nomadcouch/). Be sure to say hello!
+* Or, connect on [Twitter](https://twitter.com/juhaliikala/), [Instagram](https://www.instagram.com/nomadcouch/) or [LinkedIn](https://www.linkedin.com/in/juhaliikala). Don't forget to say hi!
 
 But enough about me. How can I help you? Email me anytime at [sayhello@itsmejuha.co](mailto:sayhello@itsmejuha.co) if you want to ask anything or just say hi. I'd be happy if you did.
 
