@@ -44,7 +44,7 @@ ul, ol {
   color: #f69448;
 }
 
-.split-bio a:hover {
+.split-bio a:hover, .split-lists .split-list ul li a:hover {
   color: #ccc;;
   border-bottom: 1px dotted #ccc;;
 }
