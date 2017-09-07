@@ -2,7 +2,7 @@
 title: "Reading & Journaling."
 date: 2017-09-05T19:12:42+03:00
 draft: false
-featimg: "https://itsmejuha.co/images/split-reading.jpg"
+featimg: "https://www.itsmejuha.co/images/split-reading.jpg"
 description: "While preparing to launch my blog again in January 2018, I've been ramping up my reading & journaling efforts to support the process."
 ---
 

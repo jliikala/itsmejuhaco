@@ -2,7 +2,7 @@
 title: "About me"
 date: 2017-08-23T16:13:08+03:00
 draft: true
-featimg: "https://itsmejuha.co/images/juhaheader.jpg"
+featimg: "https://www.itsmejuha.co/images/juhaheader.jpg"
 description: "Juha Liikala is a front-end developer, blogger &amp; web maker for over a decade."
 ---
 

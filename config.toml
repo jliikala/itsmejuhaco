@@ -12,7 +12,7 @@ enableEmoji = true
 [params]
 	author = "Juha Liikala"
 	description = "Juha Liikala is a developer, designer and blogger who has been building websites and software for a living since 2001."
-	coverimage = "https://itsmejuha.co/images/juhaheader.jpg"
+	coverimage = "https://www.itsmejuha.co/images/juhaheader.jpg"
 	latestpostscount = 5
 	title = "Juha Liikala - Developer, Designer and Blogger from Oulu, Finland"
 	email = "sayhello@itsmejuha.co"
