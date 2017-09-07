@@ -2,12 +2,9 @@ html, body.page-template-page-fullsingle-split {
   background-color: #0e151b;
 }
 .fs-split .split-image {
-  background-image: url("https://instagram.fqlf1-1.fna.fbcdn.net/t51.2885-15/e35/13531861_220904041636348_446336203_n.jpg");
+  background-image: url("https://www.itsmejuha.co/images/split-home.jpg");
 }
 
-.fs-split .split-reading {
-  background-image: url("../../images/reading-back.jpg");
-}
 .split-bio p, ul, li {
   margin-bottom: 1rem;
 }
@@ -110,9 +107,11 @@ ul, ol {
 @media (min-width: 800px) {
   .fs-split .split-image { width: 40%; }
   .fs-split .split-content { width: 60%; }
-  body.page-template-page-fullsingle-split { font-size: 1.15rem; line-height: 2.05rem; letter-spacing: -0.2px; }
+  body.page-template-page-fullsingle-split { font-size: 1.20rem; line-height: 2.05rem; letter-spacing: -0.2px; }
 }
 
-@media (max-width: 400px) {
-  /*body.page-template-page-fullsingle-split { font-size: 1.00rem; line-height: 1.35rem; letter-spacing: -0.2px; } */
+@media (max-width: 420px) {
+  .split-author img {
+    width: 70px;
+  }
 }
