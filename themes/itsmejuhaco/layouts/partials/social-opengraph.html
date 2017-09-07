@@ -5,7 +5,7 @@
 <meta property="og:title" content="{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
 <meta property="og:image" content="{{ if $.Param "featimg" }}{{ $.Param "featimg" }}{{ else }}{{ .Site.Params.coverimage }}{{ end }}">
 <meta property="og:image:secure_url" content="{{ if $.Param "featimg" }}{{ $.Param "featimg" }}{{ else }}{{ .Site.Params.coverimage }}{{ end }}">
-<meta property="og:description" content="{{ if .IsPage }}{{ $.Param "description" }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
+<meta property="og:description" content="{{ if .IsPage }}{{ $.Param "description" }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 {{ if .IsPage }}
 <meta property="article:author" content="{{ .Site.Params.FBAuthor }}">
@@ -19,5 +19,5 @@
 <meta name="twitter:creator" content="@juhaliikala">
 <meta name="twitter:url" content="{{ .Permalink }}">
 <meta name="twitter:title" content="{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
-<meta name="twitter:description" content="{{ if .IsPage }}{{ $.Param "description" }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
+<meta name="twitter:description" content="{{ if .IsPage }}{{ $.Param "description" }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta name="twitter:image" content="{{ if $.Param "featimg" }}{{ $.Param "featimg" }}{{ else }}{{ .Site.Params.coverimage }}{{ end }}">
