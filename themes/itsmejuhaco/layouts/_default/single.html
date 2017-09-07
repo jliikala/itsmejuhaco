@@ -1,18 +1,22 @@
 {{ partial "header.html" . }}
 {{ $baseURL := .Site.BaseURL }}
+<div class="fs-split">
+  <div class="split-image" style="background-image: url('{{ if .IsPage }}{{ $.Param "featimg" }}{{ else }}{{ .Site.Params.coverimage }}{{ end }}');"></div>
+  <div class="split-content">
+    <div class="split-content-vertically-center">
+    	<div class="split-author">
 
-<div class="container">
+			<h1>{{ .Title }}</h1>
+			<span class="back-link"><a href="{{ .Site.BaseURL }}">&laquo; Back home</a></span>
+			</div>
+			<div class="split-bio">
+				{{ .Content }}
+			</div>
 
-<div class="main">
-<small class="backlink"><strong>← <a href="{{ .Site.BaseURL }}">Back home</a></strong></small>
-<article>
-	<h1>{{ .Title }}</h1>
-		
-  	{{ .Content }}
-  	
-  </article>
+    {{ partial "split-navi.html" . }}
+    </div>
+  </div>
+</div>
 
-</div> <!-- main -->
-</div> <!-- container -->
-
+{{ partial "scripts.html" . }}
 {{ partial "footer.html" . }}

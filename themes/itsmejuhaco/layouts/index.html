@@ -1,6 +1,11 @@
 {{ partial "header.html" . }}
-<div class="container">
-{{ partial "home-content.html" . }}
+<div class="fs-split">
+	<div class="split-image"></div>
+	<div class="split-content">
+		<div class="split-content-vertically-center">
+		{{ partial "home-content.html" . }}
+		</div>
+	</div>
 </div>
 {{ partial "scripts.html" . }}
 {{ partial "footer.html" . }}

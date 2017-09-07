@@ -1,6 +1,7 @@
 
 @charset "utf-8";
 
-@import "normalize.css";
+/*@import "normalize.css";*/
+@import "split.css";
 @import "itsmejuhaco.css";
-@import "syntax.css";
+/*@import "syntax.css";*/

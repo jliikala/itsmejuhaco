@@ -1,186 +1,118 @@
-@import url(//fonts.googleapis.com/css?family=Inconsolata:400,700|Montserrat:700);
-
-html {
-  font: 16px/1.5 Inconsolata, sans-serif;
+html, body.page-template-page-fullsingle-split {
+  background-color: #0e151b;
+}
+.fs-split .split-image {
+  background-image: url("https://instagram.fqlf1-1.fna.fbcdn.net/t51.2885-15/e35/13531861_220904041636348_446336203_n.jpg");
 }
 
-@media (min-width: 30rem) {
-  html {
-    font-size: 20px;
-  }
+.fs-split .split-reading {
+  background-image: url("../../images/reading-back.jpg");
 }
-
-body {
-  margin: 2rem 0 5rem;
-  color: #333;
-}
-
-@media (min-width: 30rem) {
-  body {
-    margin-top: 5rem;
-  }
-}
-
-a {
-  color: #0074d9;
-  text-decoration: none;
-}
-
-a:hover, a:focus {
-  text-decoration: underline;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: Montserrat, sans-serif;
-  margin: 0 0 0.5rem -0.1rem /* align left edge */;
-  line-height: 1;
-  color: #111;
-  text-rendering: optimizeLegibility;
-}
-
-h1 {
-  font-size: 2.5rem;
+.split-bio p, ul, li {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 30rem) {
-  h1 {
-    font-size: 3rem;
-    margin-bottom: 3rem;
-  }
-}
-
-h1 a {
-  color: inherit;
-}
-
-h2 {
-  margin-top: 2rem;
-  font-size: 1.25rem;
-  margin-bottom: 0.75rem;
-}
-
-@media (min-width: 30rem) {
-  h2 {
-    margin-top: 2.5rem;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-}
-
-h3, h4, h5, h6 {
-  margin-top: 1.5rem;
-  font-size: 1rem;
-  text-transform: uppercase;
-}
-
-p, ul, ol, dl, table, pre, blockquote {
-  margin-top: 0;
+.split-bio h2 {
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 ul, ol {
   padding-left: 1.5rem;
+  list-style: disc;
 }
 
-dd {
-  margin-left: 1.5rem;
+.split-bio strong {
+  font-weight: bold;
+  color: #ccc;
 }
 
-blockquote {
-  margin-left: 0;
-  margin-right: 0;
-  padding: .5rem 1rem;
-  border-left: .25rem solid #ccc;
-  color: #666;
+.split-author img {
+  width: 100px;
+  border-radius: 200px;
 }
 
-blockquote p:last-child {
+.split-author h1 {
+  font-weight: 600;
+  font-size: 54px; 
+  line-height: 1.2;
+  text-transform: none;
+  letter-spacing: 0.4px;
+  color: #fff;
   margin-bottom: 0;
 }
 
-hr {
-  border: none;
-  margin: 1.5rem 0;
-  border-bottom: 1px solid #ccc;
-  position: relative;
-  top: -1px;
+.split-bio a {
+  color: #f69448;
 }
 
-.container img, .container iframe {
+.split-bio a:hover {
+  color: #ccc;;
+  border-bottom: 1px dotted #ccc;;
+}
+
+.split-bio h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.split-bio em {
+  font-style: italic;
+}
+
+.split-bio img {
   max-width: 100%;
 }
 
-.container img {
-  margin: 0 auto;
-  display: block;
-}
-
-table {
-  width: 100%;
-  border: 1px solid #ccc;
-  border-collapse: collapse;
-}
-
-td, th {
-  padding: .25rem .5rem;
-  border: 1px solid #ccc;
-}
-
-pre, code {
-  font-family: inherit;
-  background-color: #eee;
-}
-
-pre {
-  padding: .5rem 1rem;
-  font-size: 0.8rem;
-}
-
-code {
-  padding: .1rem .25rem;
-}
-
-pre > code {
+.split-author .hatlist {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0;
   padding: 0;
-}
-
-.container {
-  max-width: 30rem;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-.clear {
-  clear: both;
-}
-
-.rss-link {
-  letter-spacing: 0;
-}
-
-.container .work-feat {
-  margin: 20px 0;
-}
-
-.author {
-  margin-top: 60px;
-  border-bottom: 1px solid #ddd;
-}
-
-.author img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 1px solid #eee;
-  float: left;
-}
-
-.author p {
-  padding-left: 120px;
-}
-
-.twitter-follow-button {
-  vertical-align: middle;
+  margin-bottom: 40px;
+  letter-spacing: 0.4px;
+  color: #fff;
+  margin-bottom: 40px;
   display: inline-block;
+}
+
+.split-author img {
+  border: 7px solid #fafafa;
+}
+
+.split-list {
+  vertical-align: top;
+}
+
+.split-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.fa {
+  padding-right: 0.7rem; 
+}
+
+.back-link a{
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #f69448;
+}
+
+@media (min-width: 800px) {
+  .fs-split .split-image { width: 40%; }
+  .fs-split .split-content { width: 60%; }
+  body.page-template-page-fullsingle-split { font-size: 1.15rem; line-height: 2.05rem; letter-spacing: -0.2px; }
+}
+
+@media (max-width: 400px) {
+  /*body.page-template-page-fullsingle-split { font-size: 1.00rem; line-height: 1.35rem; letter-spacing: -0.2px; } */
 }

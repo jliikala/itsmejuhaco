@@ -1,20 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Juha Liikala</title>
+    <title>Juha Liikala - Developer, Designer and Blogger from Oulu, Finland</title>
     <link>https://www.itsmejuha.co/</link>
-    <description>Recent content on Juha Liikala</description>
+    <description>Recent content on Juha Liikala - Developer, Designer and Blogger from Oulu, Finland</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Aug 2017 14:21:08 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 05 Sep 2017 19:12:42 +0300</lastBuildDate>
     
 	<atom:link href="https://www.itsmejuha.co/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Reading &amp; Journaling.</title>
+      <link>https://www.itsmejuha.co/reading/</link>
+      <pubDate>Tue, 05 Sep 2017 19:12:42 +0300</pubDate>
+      
+      <guid>https://www.itsmejuha.co/reading/</guid>
+      <description>While preparing to launch my blog again in January 2018, I&amp;rsquo;ve been ramping up my reading &amp;amp; journaling efforts to support the process. (If you&amp;rsquo;re interested, join my 2018 blog waiting list here.)
+While I read, I have a habit of keeping a paper journal where I write down the best discoveries I make from each book. Also a great way to organize one&amp;rsquo;s thoughts around any given topic.
+##FROM THE BOOK READING LIST:</description>
+    </item>
+    
+    <item>
       <title>About me</title>
       <link>https://www.itsmejuha.co/about/</link>
-      <pubDate>Tue, 22 Aug 2017 14:21:08 +0300</pubDate>
+      <pubDate>Wed, 23 Aug 2017 16:13:08 +0300</pubDate>
       
       <guid>https://www.itsmejuha.co/about/</guid>
       <description>Hi I&amp;rsquo;m Juha Liikala. I&amp;rsquo;ve been doing what I do for quite a while now. In fact, it&amp;rsquo;s been nearly fifteen years since I started &amp;ldquo;working on the web&amp;rdquo; for a living.
