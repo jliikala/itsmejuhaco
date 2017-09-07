@@ -114,4 +114,5 @@ ul, ol {
   .split-author img {
     width: 70px;
   }
+  body.page-template-page-fullsingle-split { font-size: 1.10rem; line-height: 2.05rem; letter-spacing: -0.2px; }
 }
