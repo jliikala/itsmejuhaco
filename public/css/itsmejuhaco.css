@@ -44,7 +44,7 @@ ul, ol {
   color: #f69448;
 }
 
-.split-bio a:hover {
+.split-bio a:hover, .split-lists .split-list ul li a:hover {
   color: #ccc;;
   border-bottom: 1px dotted #ccc;;
 }
@@ -114,5 +114,5 @@ ul, ol {
   .split-author img {
     width: 70px;
   }
-  body.page-template-page-fullsingle-split { font-size: 1.20rem; line-height: 2.05rem; letter-spacing: -0.2px; }
+  body.page-template-page-fullsingle-split { font-size: 1.10rem; line-height: 2.05rem; letter-spacing: -0.2px; }
 }
