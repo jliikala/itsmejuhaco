@@ -1,8 +1,8 @@
 <script> 
 	var myDate = new Date(); 
 	   
-	/* hour is before noon */
-	if ( myDate.getHours() < 12 )  
+	/* Hour is between 4am and 12pm */
+	if ( myDate.getHours() >= 4 && myDate.getHours() < 12 )  
 	{ 
 	    document.write("Good Morning Folks."); 
 	} 
@@ -15,7 +15,12 @@
 	if ( myDate.getHours() > 17 && myDate.getHours() <= 24 ) 
 	{ 
 	    document.write("Good Evening Folks."); 
-	} 
+	}
+	else /* Hour is between 0 and 4am */
+	if (myDate.getHours() < 4)
+	{
+		document.write("Good Late Evening Folks."); 
+	}
 	else  /* the hour is not between 0 and 24, so something is wrong */
 	{ 
 	    document.write("Hi Folks."); 
