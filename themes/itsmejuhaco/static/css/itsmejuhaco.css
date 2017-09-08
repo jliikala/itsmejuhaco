@@ -67,22 +67,8 @@ ul, ol {
   max-width: 100%;
 }
 
-.split-author .hatlist {
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 16px;
-  line-height: 16px;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 40px;
-  letter-spacing: 0.4px;
-  color: #fff;
-  margin-bottom: 40px;
-  display: inline-block;
-}
-
 .split-author img {
-  border: 7px solid #fafafa;
+  border: 4px solid #fafafa;
 }
 
 .split-list {
