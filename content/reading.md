@@ -3,12 +3,12 @@ title: "Reading & Journaling."
 date: 2017-09-05T19:12:42+03:00
 draft: false
 featimg: "https://www.itsmejuha.co/images/split-reading.jpg"
-description: "While preparing to launch my blog again in January 2018, I've been ramping up my reading & journaling efforts to support the process."
+description: "While preparing to launch my blog again, I've been ramping up my reading & journaling efforts to support the process."
 ---
 
-As I'm preparing to launch my blog again in January 2018, I've been ramping up my reading & journaling efforts to support the process. (If you're interested, [join my 2018 blog waiting list here](http://eepurl.com/cxqFQr).)
+As I'm preparing to launch my blog again later this year, I've been ramping up my reading & journaling efforts to support the process. (If you're interested, [join my 2018 blog waiting list here](http://eepurl.com/cxqFQr).)
 
-While reading, I have a habit of keeping a paper journal where I write down the best discoveries I make. I've found it to be a great way to organize thoughts around any given subject. Give it a try if you haven't!
+While reading, I have a habit of keeping a [bullet journal](http://bulletjournal.com/get-started/) where I write down the best discoveries I make. I've found it to be a great way to organize thoughts around any given subject. Give it a try if you haven't!
 
 ## From the book reading list:
 
@@ -26,6 +26,6 @@ While reading, I have a habit of keeping a paper journal where I write down the 
 * **Tobias VanSchneider** - Design, Productivity - [vanschneider.com/blog](http://www.vanschneider.com/blog/)
 * **Baremetrics blog** - Startups, Growth - [baremetrics.com/blog](https://baremetrics.com/blog/)
 * **Buffer Open blog** - Productivity, Work Culture - [open.buffer.com](https://open.buffer.com/)
-* **Ghost blog** - Online Publishing, Blogging - [blog.ghost.org](https://blog.ghost.org/)
+* **Our World in Data** - Ongoing history of human civilization - [ourworldindata.org](https://ourworldindata.org/)
 
 Last updated: September 7, 2017.
