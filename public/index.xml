@@ -6,10 +6,19 @@
     <description>Recent content on Juha Liikala - Developer, Designer and Blogger from Oulu, Finland</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Sep 2017 19:12:42 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 08 Sep 2017 11:24:14 +0300</lastBuildDate>
     
 	<atom:link href="https://www.itsmejuha.co/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Thanks</title>
+      <link>https://www.itsmejuha.co/thanks/</link>
+      <pubDate>Fri, 08 Sep 2017 11:24:14 +0300</pubDate>
+      
+      <guid>https://www.itsmejuha.co/thanks/</guid>
+      <description>You&amp;rsquo;re now subscribed, thanks!</description>
+    </item>
     
     <item>
       <title>Reading &amp; Journaling.</title>
