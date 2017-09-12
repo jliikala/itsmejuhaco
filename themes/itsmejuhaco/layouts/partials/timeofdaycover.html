@@ -4,25 +4,25 @@
 	/* Hour is between 4am and 12pm */
 	if ( myDate.getHours() >= 4 && myDate.getHours() < 12 )  
 	{ 
-	    document.write("Good Morning Fellow Interneter!"); 
+	    document.write("morningpic.jpg"); 
 	} 
 	else  /* Hour is from noon to 5pm (actually to 5:59 pm) */
 	if ( myDate.getHours() >= 12 && myDate.getHours() <= 17 ) 
 	{ 
-	    document.write("Good Afternoon Fellow Interneter."); 
+	    document.write("afternoonpic.jpg"); 
 	} 
 	else  /* the hour is after 5pm, so it is between 6pm and midnight */
 	if ( myDate.getHours() > 17 && myDate.getHours() <= 24 ) 
 	{ 
-	    document.write("Good Evening Fellow Interneter."); 
+	    document.write("eveningpic.jpg"); 
 	}
 	else /* Hour is between 0 and 4am */
 	if (myDate.getHours() < 4)
 	{
-		document.write("Good Late Evening Folks."); 
+		document.write("nightpic.jpg"); 
 	}
 	else  /* the hour is not between 0 and 24, so something is wrong */
 	{ 
-	    document.write("Hi Folks."); 
+	    document.write("defaultpic.jpg"); 
 	} 
 </script> 

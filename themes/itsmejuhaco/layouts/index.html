@@ -3,7 +3,11 @@
 	<div class="split-image"></div>
 	<div class="split-content">
 		<div class="split-content-vertically-center">
-		{{ partial "home-content.html" . }}
+			<header class="main-header">
+			{{ partial "page-header.html" . }}
+			{{ partial "top-navigation.html" . }}
+			</header>
+			{{ partial "home-content.html" . }}
 		</div>
 	</div>
 </div>

@@ -1,0 +1,9 @@
+<nav class="top-navi">
+	<ul style="width: 100%;">
+		{{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+		<li class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}"><a href="{{.URL}}">{{ .Name }}</a></li>
+    {{ end }}
+    <li><a href="https://eepurl.com/cxqFQr">Subscribe</a></li>
+	</ul>
+</nav>
