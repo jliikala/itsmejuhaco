@@ -328,7 +328,7 @@ ul {
   margin-left: -58px;
 }
 
-.header-description {
+.header-description p {
   font-size: 15px;
   line-height: 20px;
   font-weight: normal;
@@ -599,7 +599,7 @@ a.share-twitter:hover{
     width: 70px;
   }
   body { font-size: 1.25rem; line-height: 2.05rem; letter-spacing: -0.2px; }
-  body h1 { font-size: 2.1rem;} 
+  body h1 { font-size: 1.8rem;} 
   .top-navi ul li { margin-left: 15px; }
   .share-bar {
     display: none;
@@ -607,5 +607,13 @@ a.share-twitter:hover{
 
   article .post-content {
     padding:10px 30px;
+  }
+  .header-description, .top-navi {
+    display: none;
+  }
+
+  .page-header .fullname{
+    display: inline-block;
+    margin: 12px 0 0 12px;
   }
 }
