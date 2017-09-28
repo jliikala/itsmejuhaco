@@ -4,6 +4,5 @@
     {{ range .Site.Menus.main }}
 		<li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a></li>
     {{ end }}
-    <li><a href="https://eepurl.com/cxqFQr">Subscribe</a></li>
 	</ul>
 </nav>

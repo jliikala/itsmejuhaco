@@ -27,26 +27,3 @@ enableEmoji = true
 	FBPage = "https://www.facebook.com/itsmejuhaco/"
 	FBAuthor = "https://www.facebook.com/JuhaLiikala/"
 	newsletter = "http://eepurl.com/cxqFQr"
-	
-[[menu.main]]
-    name = "Home"
-    pre = "<i class='fa fa-heart'></i>"
-    weight = 1
-    identifier = "home"
-    url = "/"
-[[menu.main]]
-    name = "Reading & Journaling"
-    pre = "<i class='fa fa-road'></i>"
-    weight = 2
-    url = "/reading/"
-
-#[[menu.main]]
-#    name = "About"
-#    pre = "<i class='fa fa-road'></i>"
-#    weight = -100
-#    url = "/about/"
-#[[menu.main]]
-#    name = "Blog"
-#    pre = "<i class='fa fa-road'></i>"
-#    weight = -100
-#    url = "/blog/"
