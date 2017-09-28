@@ -6,7 +6,7 @@ description = "Hugo theme for itsemejuha.co"
 homepage = "https://www.itsmejuha.co/"
 tags = []
 features = []
-min_version = "0.26"
+min_version = "0.29"
 
 [author]
   name = "Juha Liikala"
