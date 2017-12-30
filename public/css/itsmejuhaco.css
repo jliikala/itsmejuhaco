@@ -98,6 +98,11 @@ a:hover {
 }
 */
 
+abbr[title], acronym[title] {
+    border-bottom: none;
+    text-decoration: none;
+}
+
 /* Base styles from Split by Rob Hope*/
 
 .fs-split {
