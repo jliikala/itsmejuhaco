@@ -125,9 +125,7 @@ abbr[title], acronym[title] {
 
     @media (max-width: 800px) {
       .fs-split .split-image {
-        display: none;
-        /*height: 0vh;
-        width: 100%;*/ } }
+        display: none;} }
   .fs-split .split-content {
     width: 50%;
     min-height: 100vh;
@@ -278,9 +276,6 @@ video.video {
 
 .fs-split .split-image {
   background-image: url("https://www.itsmejuha.co/images/split-home.jpg");
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
   align-items: center;
 }
 
@@ -630,7 +625,11 @@ a.share-twitter:hover{
 
 
 @media (min-width: 800px) {
-  .fs-split .split-image { width: 50%; }
+  .fs-split .split-image { width: 50%; 
+    display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  }
   .fs-split .split-content { width: 50%; }
   body { font-size: 1.20rem; line-height: 2.05rem; letter-spacing: -0.2px; }
 }
