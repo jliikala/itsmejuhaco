@@ -20,7 +20,7 @@
     {{ if .IsHome }}{{ partial "google-meta.html" . }}{{ end }}
 
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
-    
+
     {{ if .RSSLink }}
     <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
     {{ end }}
