@@ -19,6 +19,9 @@
     {{ partial "social-opengraph.html" . }}
     {{ if .IsHome }}{{ partial "google-meta.html" . }}{{ end }}
 
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//ssl.google-analytics.com">
+
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
 
     {{ if .RSSLink }}
