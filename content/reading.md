@@ -1,12 +1,14 @@
 ---
-title: "Reading List"
+title: "Reading"
 date: 2017-09-05T19:12:42+03:00
 draft: false
 featimg: "https://www.itsmejuha.co/images/split-reading.jpg"
-description: "While preparing to launch my blog again, I've been ramping up my reading & journaling efforts to support the process."
+description: "I usually read 15-30 minutes each day just before bedtime. I've found it to be a great way for minimizing screen time in the evening (which I get plenty enough during the daytime already)."
 ---
 
-## Latest from the book reading list:
+I usually read 15-30 minutes each day just before bedtime. I've found it to be a great way for minimizing screen time in the evening (which I get plenty enough during the daytime already).
+
+### Latest from the book reading list:
 
 * **The Power Of Habit** by Charles Duhigg - [Amazon.co.uk](https://www.amazon.co.uk/Power-Habit-Business-Charles-Jan-2014/dp/B00LKJ63AG/)
 * **Machine, Platform, Crowd** by Andrew McAfee and Erik Brynjolfsson - [Amazon.co.uk](https://www.amazon.co.uk/Machine-Platform-Crowd-Harnessing-Revolution/dp/0393254291/)
@@ -14,7 +16,7 @@ description: "While preparing to launch my blog again, I've been ramping up my r
 * **My World Is My Bond: The Autobiography** by Roger Moore - [Amazon.co.uk](https://www.amazon.co.uk/My-Word-Bond-Autobiography/dp/1843173875/)
 * **China's Disruptors: How Alibaba, Xiaomi, Tencent, and Other Companies are Changing the Rules of Business** by Edward Tse - [Amazon.co.uk](https://www.amazon.co.uk/Chinas-Disruptors-Companies-Changing-Business/dp/0241240395/)
 
-## Regular reads from the blogosphere:
+### Regular reads from the blogosphere:
 
 * **Pat Flynn** - Online Business, Passive Income - [smartpassiveincome.com](https://www.smartpassiveincome.com/)
 * **Indie Hackers** - Online Business, Side Projects - [indiehackers.com](https://www.indiehackers.com/)

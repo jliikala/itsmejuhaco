@@ -3291,7 +3291,7 @@ acronym[title] {
 }
 
 .fs-split .split-content .split-content-vertically-center {
-    padding: 80px;
+    padding: 80px 80px 0 80px;
     max-width: 640px;
     margin-bottom: auto
 }
