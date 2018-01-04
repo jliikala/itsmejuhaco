@@ -9,7 +9,7 @@
 
       gtag('config', 'UA-208469-11');
     </script>
-
+    {{ .Hugo.Generator }}
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</title>
