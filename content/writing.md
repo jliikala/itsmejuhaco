@@ -12,7 +12,7 @@ I haven't set up a blog here on my personal website yet, but I'm considering it 
 
 ### These are my latest on Medium.com:
 
-* [**So Interneters, where do you hang out these days (a brief history in blogging)?**](https://medium.com/@juhaliikala/so-interneters-where-do-you-hang-out-these-days-a-brief-history-in-blogging-4a47b162687) - <time datetime="2018-01-02" pubdate>Jan 2, 2018</time>
-* [**What’s Going To Matter in 2018? Setting Goals, Finding Focus & More.**](https://medium.com/@juhaliikala/whats-going-to-matter-in-2018-setting-goals-finding-focus-more-e490d51b7b3b) - <time datetime="2017-12-28" pubdate>Dec 28, 2017</time>
+* [So Interneters, where do you hang out these days (a brief history in blogging)?](https://medium.com/@juhaliikala/so-interneters-where-do-you-hang-out-these-days-a-brief-history-in-blogging-4a47b162687) - <time datetime="2018-01-02" pubdate>Jan 2, 2018</time>
+* [What’s Going To Matter in 2018? Setting Goals, Finding Focus & More.](https://medium.com/@juhaliikala/whats-going-to-matter-in-2018-setting-goals-finding-focus-more-e490d51b7b3b) - <time datetime="2017-12-28" pubdate>Dec 28, 2017</time>
 
 Thank you for reading!
