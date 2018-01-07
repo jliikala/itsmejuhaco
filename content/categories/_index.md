@@ -1,4 +1,3 @@
 +++
 hidden = "true"
 +++
-<h1>Blog</h1>
