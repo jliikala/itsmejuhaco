@@ -3737,11 +3737,11 @@ article .post-content a {
 
 .share-bar ul li {
     display: inline;
-    margin-left: 30px
+    margin-left: 30px;
 }
 
 .share-bar ul li:first-child {
-    margin-left: 0
+    margin-left: 0;
 }
 
 .share-bar ul li a {
@@ -3755,7 +3755,7 @@ article .post-content a {
 a.share-twitter:hover,
 a.share-facebook:hover,
 a.share-linkedin:hover {
-    border-bottom: none
+    border-bottom: none;
 }
 
 a.share-twitter:hover {
@@ -3768,27 +3768,28 @@ a.share-twitter:hover {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    align-content: center
+    align-content: center;
 }
 
 .top-navi ul {
     list-style: none;
     padding-left: 0;
-    line-height: 18px
+    line-height: 18px;
+    width: 100%;
 }
 
 .top-navi ul li {
     float: left;
-    margin-left: 35px
+    margin-left: 35px;
 }
 
 .top-navi ul li:first-child {
-    margin-left: 0
+    margin-left: 0;
 }
 
 .top-navi ul li.current a {
     text-decoration: none;
-    border-bottom: 2px solid #fff
+    border-bottom: 2px solid #fff;
 }
 
 .top-navi ul li a {
