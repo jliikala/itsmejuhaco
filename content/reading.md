@@ -27,4 +27,4 @@ I usually read 15-30 minutes each day just before bedtime. I've found it to be a
 * **Buffer Open blog** - Productivity, Work Culture - [open.buffer.com](https://open.buffer.com/)
 * **Our World in Data** - Ongoing history of human civilization - [ourworldindata.org](https://ourworldindata.org/)
 
-Last updated: December 30, 2017.
+Last updated: Dec 30, 2017.
