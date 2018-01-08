@@ -4,6 +4,7 @@ title = "Juha Liikala | Front-End Engineer | Oulu, Finland"
 theme = "itsmejuhaco"
 
 enableEmoji = true
+enableRobotsTXT = true
 
 [permalinks]
 	fixed = ":title/"
