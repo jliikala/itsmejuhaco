@@ -6,11 +6,11 @@
       <header class="main-header">
       {{ partial "page-header.html" . }}
       </header>
-      <article>
+      <section class="content">
         <h1 class="title">{{ .Title }}</h1>
         {{ .Content }}
-      </article>
-      {{ partial "split-navi.html" . }}
+      </section>
+      {{ partial "footer-navi.html" . }}
     </div>
   </div>
 </div>

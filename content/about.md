@@ -6,8 +6,6 @@ featimg: "https://www.itsmejuha.co/images/juhaheader.jpg"
 description: "Juha Liikala is a front-end developer, blogger &amp; web maker for over a decade."
 ---
 
-![Hi I'm Juha Liikala](https://itsmejuha.co/images/juhaheader.jpg "Hi I'm Juha Liikala")
-
 Hi I'm **Juha Liikala**. I've been doing what I do for quite a while now. In fact, it's been nearly fifteen years since I started "working on the web" for a living.
 
 Most of my working days go by swimming in the [sea of front-end web technologies](https://github.com/dypsilon/frontend-dev-bookmarks) (and hopefully, trying to stay afloat).

@@ -10,6 +10,29 @@ enableRobotsTXT = true
 	fixed = ":title/"
 	blog  = ":slug/"
 
+[[menu.main]]
+    name = "Home"
+    weight = -120
+    identifier = "home"
+    url = "/"
+[[menu.main]]
+    name = "About"
+    weight = -110
+    identifier = "about"
+    url = "/about/"
+[[menu.main]]
+    name = "Writing"
+    weight = -100
+    identifier = "writing"
+    url = "/writing/"
+[[menu.main]]
+    name = "Reading"
+    weight = -90
+    identifier = "reading"
+    url = "/reading/"
+
+
+
 [params]
 	author = "Juha Liikala"
 	description = "Juha Liikala is a developer, designer and blogger who has been building websites and software for a living since 2001."
