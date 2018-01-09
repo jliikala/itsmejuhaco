@@ -17,14 +17,19 @@ enableRobotsTXT = true
     url = "/"
 [[menu.main]]
     name = "Writing"
-    weight = -100
+    weight = -110
     identifier = "writing"
     url = "/writing/"
 [[menu.main]]
     name = "Reading"
-    weight = -90
+    weight = -100
     identifier = "reading"
     url = "/reading/"
+[[menu.main]]
+    name = " Follow me on Twitter"
+    weight = -90
+    identifier = "twitterlink"
+    url = "https://twitter.com/juhaliikala"
 
 
 

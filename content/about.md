@@ -1,22 +1,10 @@
 ---
-title: "About me"
+title: "Howdy partner"
 date: 2017-08-23T16:13:08+03:00
 draft: true
-featimg: "https://www.itsmejuha.co/images/juhaheader.jpg"
+featimg: "/images/split-me.jpg"
 description: "Juha Liikala is a front-end developer, blogger &amp; web maker for over a decade."
 ---
-
-Hi I'm **Juha Liikala**. I've been doing what I do for quite a while now. In fact, it's been nearly fifteen years since I started "working on the web" for a living.
-
-Most of my working days go by swimming in the [sea of front-end web technologies](https://github.com/dypsilon/frontend-dev-bookmarks) (and hopefully, trying to stay afloat).
-
-Travel has been part of my DNA ever since my parents first took me abroad back in the 80's. Choosing this line of work has enabled me to keep travelling, even when I'm working. An Internet connection and a laptop is all I need.
-
-### Office Hours
- 
-* **9 to 5** - I'm currently doing front-end development & product design at Synopsys, Inc., building tools that help [make software safer](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html).
-* **Freelancing &amp; partnerships** - I have very limited time nowadays for freelancing, but if you have <strong>something extra special</strong> in mind, [don't hesitate to get in touch](mailto:sayhello@itsmejuha.co).
-* **Side Projects** - For the time being, this blog + [this newsletter](http://eepurl.com/cxqFQr)
 
 ### OoO (Out of Office)
 
@@ -35,3 +23,31 @@ But enough about me. How can I help you? Email me anytime at [sayhello@itsmejuha
 Cheers!
 
 &ndash; Juha
+
+<div class="split-lists">
+  <div class="split-list">
+    <h3>Connect</h3>
+    <ul>
+      <li><a href="mailto:{{ .Site.Params.email }}"><i class="fa fa-envelope-o"></i>Email</a></li>
+      <li><a href="{{ .Site.Params.newsletter }}"><i class="fa fa-envelope"></i>Newsletter</a></li>
+    </ul>
+  </div>
+
+  <div class="split-list">
+    <h3>Social</h3>
+    <ul>
+      <li><a href="{{ .Site.Params.twitterUrl }}"><i class="fa fa-twitter"></i>Twitter</a></li>
+      <li><a href="{{ .Site.Params.instagramUrl }}"><i class="fa fa-instagram"></i>Instagram</a></li>
+      <li><a href="{{ .Site.Params.linkedinUrl }}"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
+    </ul>
+  </div>
+
+  <div class="split-list">
+    <h3>Also</h3>
+    <ul>
+      <li><a href="{{ .Site.Params.mediumUrl }}"><i class="fa fa-medium"></i>Medium</a></li>
+      <li><a href="{{ .Site.Params.producthuntUrl }}"><i class="fa fa-product-hunt"></i>Product Hunt</a></li>
+      <li><a href="{{ .Site.Params.unsplashUrl }}"><i class="fa fa-camera"></i>Unsplash</a></li>
+    </ul>
+  </div>
+</div>
