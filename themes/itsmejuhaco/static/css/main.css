@@ -3886,8 +3886,7 @@ a.share-twitter:hover {
     article .post-content {
         padding: 10px 30px
     }
-    .header-description,
-    .footer-navi {
+    .header-description {
         display: none
     }
     .page-header .fullname {
