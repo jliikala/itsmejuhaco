@@ -16,11 +16,6 @@ enableRobotsTXT = true
     identifier = "home"
     url = "/"
 [[menu.main]]
-    name = "About"
-    weight = -110
-    identifier = "about"
-    url = "/about/"
-[[menu.main]]
     name = "Writing"
     weight = -100
     identifier = "writing"
