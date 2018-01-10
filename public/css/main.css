@@ -4,7 +4,7 @@
     src: url(../fonts/fontawesome-webfont.eot?v=4.7.0);
     src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(../fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
 }
 
 .fa {
@@ -13,7 +13,7 @@
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .fa-lg {
@@ -3015,7 +3015,7 @@
 }
 
 .fa-meetup:before {
-    content: "\f2e0"
+    content: "\f2e0";
 }
 
 .sr-only {
@@ -3026,7 +3026,7 @@
     margin: -1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    border: 0
+    border: 0;
 }
 
 .sr-only-focusable:active,
@@ -3036,10 +3036,9 @@
     height: auto;
     margin: 0;
     overflow: visible;
-    clip: auto
+    clip: auto;
 }
 
-;
 html,
 body,
 div,
@@ -3761,7 +3760,7 @@ a.share-twitter:hover {
     color: #58ABEC
 }
 
-.top-navi {
+.footer-navi {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 18px;
     width: 100%;
@@ -3770,28 +3769,33 @@ a.share-twitter:hover {
     align-content: center;
 }
 
-.top-navi ul {
+.footer-navi ul {
     list-style: none;
     padding-left: 0;
     line-height: 18px;
     width: 100%;
 }
 
-.top-navi ul li {
+.footer-navi ul li {
     float: left;
     margin-left: 35px;
 }
 
-.top-navi ul li:first-child {
+.footer-navi ul li:first-child {
     margin-left: 0;
 }
 
-.top-navi ul li.current a {
+.footer-navi ul li:last-child a:before {
+    font-family: FontAwesome;
+    content: "\f099";
+}
+
+.footer-navi ul li.current a {
     text-decoration: none;
     border-bottom: 2px solid #fff;
 }
 
-.top-navi ul li a {
+.footer-navi ul li a {
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
@@ -3802,17 +3806,17 @@ a.share-twitter:hover {
     transition: all 0.3s ease
 }
 
-.top-navi ul li a:focus {
+.footer-navi ul li a:focus {
     outline: 0
 }
 
-.top-navi ul li a:hover {
+.footer-navi ul li a:hover {
     text-decoration: none;
     border-bottom: 2px solid #fff;
     color: #fff
 }
 
-.top-navi ul li a.active {
+.footer-navi ul li a.active {
     border-bottom: 2px solid #fff;
     color: #fff
 }
@@ -3848,6 +3852,51 @@ a.share-twitter:hover {
     font-size: 1rem
 }
 
+.title { 
+  position: relative;
+  display: inline-block;
+  line-height: 65px;
+  font-size: 54px;
+  color: white;
+  min-width: 360px;
+}
+
+.title::after {
+  content: "";
+  font-family: Monaco, Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 0;
+  right: -15px;
+  /* Remove display: inline-block if not required to be on the same line as text etc */
+  display: inline-block;
+  background-color: #606060;
+  vertical-align: top;
+  width: 10px;
+  /* Set height to the line height of .text */
+  height: 54px;
+  /* 
+  Animation paramaters:
+  blink = animation-name, 
+  1s = animation-duration, 
+  step-end = animation-timing-function,
+  infinite = animation-iteration-count
+  */
+  -webkit-animation: blink 1s step-end infinite;
+  animation: blink 1s step-end infinite;
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
 @media (min-width:800px) {
     .fs-split .split-image {
         width: 50%;
@@ -3877,7 +3926,7 @@ a.share-twitter:hover {
     body h1 {
         font-size: 1.8rem
     }
-    .top-navi ul li {
+    .footer-navi ul li {
         margin-left: 15px
     }
     .share-bar {
@@ -3886,8 +3935,7 @@ a.share-twitter:hover {
     article .post-content {
         padding: 10px 30px
     }
-    .header-description,
-    .top-navi {
+    .header-description {
         display: none
     }
     .page-header .fullname {

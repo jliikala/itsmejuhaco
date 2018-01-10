@@ -4,7 +4,7 @@
     src: url(../fonts/fontawesome-webfont.eot?v=4.7.0);
     src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(../fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
 }
 
 .fa {
@@ -13,7 +13,7 @@
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .fa-lg {
@@ -3015,7 +3015,7 @@
 }
 
 .fa-meetup:before {
-    content: "\f2e0"
+    content: "\f2e0";
 }
 
 .sr-only {
@@ -3026,7 +3026,7 @@
     margin: -1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    border: 0
+    border: 0;
 }
 
 .sr-only-focusable:active,
@@ -3036,10 +3036,9 @@
     height: auto;
     margin: 0;
     overflow: visible;
-    clip: auto
+    clip: auto;
 }
 
-;
 html,
 body,
 div,
@@ -3851,6 +3850,51 @@ a.share-twitter:hover {
 
 .fact-file dl dd {
     font-size: 1rem
+}
+
+.title { 
+  position: relative;
+  display: inline-block;
+  line-height: 65px;
+  font-size: 54px;
+  color: white;
+  min-width: 360px;
+}
+
+.title::after {
+  content: "";
+  font-family: Monaco, Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 0;
+  right: -15px;
+  /* Remove display: inline-block if not required to be on the same line as text etc */
+  display: inline-block;
+  background-color: #606060;
+  vertical-align: top;
+  width: 10px;
+  /* Set height to the line height of .text */
+  height: 54px;
+  /* 
+  Animation paramaters:
+  blink = animation-name, 
+  1s = animation-duration, 
+  step-end = animation-timing-function,
+  infinite = animation-iteration-count
+  */
+  -webkit-animation: blink 1s step-end infinite;
+  animation: blink 1s step-end infinite;
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
 }
 
 @media (min-width:800px) {
