@@ -16,13 +16,18 @@ enableRobotsTXT = true
     identifier = "home"
     url = "/"
 [[menu.main]]
-    name = "Work in Progress"
+    name = "Writing"
     weight = -110
-    identifier = "work-in-progress"
-    url = "/work-in-progress/"
+    identifier = "writing"
+    url = "/writing/"
+[[menu.main]]
+    name = "Reading"
+    weight = -100
+    identifier = "reading"
+    url = "/reading/"
 [[menu.main]]
     name = " Follow me on Twitter"
-    weight = -100
+    weight = -90
     identifier = "twitterlink"
     url = "https://twitter.com/juhaliikala"
 
