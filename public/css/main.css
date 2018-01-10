@@ -3852,15 +3852,6 @@ a.share-twitter:hover {
     font-size: 1rem
 }
 
-.title { 
-  position: relative;
-  display: inline-block;
-  line-height: 65px;
-  font-size: 54px;
-  color: white;
-  min-width: 360px;
-}
-
 @media (min-width:800px) {
     .fs-split .split-image {
         width: 50%;
