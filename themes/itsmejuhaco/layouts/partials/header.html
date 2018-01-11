@@ -9,7 +9,6 @@
 
       gtag('config', 'UA-208469-11');
     </script>
-    {{ .Hugo.Generator }}
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     {{ partial "metatitle.html" . }}
@@ -29,9 +28,8 @@
     {{ partial "social-opengraph.html" . }}
     {{ if .IsHome }}{{ partial "google-meta.html" . }}{{ end }}
 
-    <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="dns-prefetch" href="//ssl.google-analytics.com">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Lora%7CMontserrat:400,600" rel="stylesheet"> -->
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://ssl.google-analytics.com">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.min.css">
 
     {{ if .RSSLink }}
