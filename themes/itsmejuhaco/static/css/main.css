@@ -3308,7 +3308,7 @@ acronym[title] {
 
 .content {
     padding: 25px 0 40px 0;
-    font-family: 'Lora', Georgia, serif
+    font-family: 'Lora', Georgia, serif;
 }
 
 @media (max-width:1200px) {
@@ -3350,7 +3350,7 @@ em {
 .content h2 {
     font-weight: 600;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Trebuchet MS', Helvetica, sans-serif;
     line-height: 1.2;
     margin-top: 2.5rem;
     font-size: 1.5rem;
@@ -3549,7 +3549,7 @@ h4,
 h5,
 h6,
 .split-lists {
-    font-family: 'Montserrat', sans-serif
+  font-family: 'Montserrat', 'Trebuchet MS', Helvetica, sans-serif;
 }
 
 h1,
@@ -3613,18 +3613,18 @@ li {
 
 .dark,
 .light {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Trebuchet MS', Helvetica, sans-serif;
     font-weight: 400;
     font-size: 19px;
     line-height: 29px;
     letter-spacing: -.2px;
     -webkit-animation: fadein 2s;
-    animation: fadein 2s
+    animation: fadein 2s;
 }
 
 .dark {
     background-color: #0e151b;
-    color: #848d96
+    color: #848d96;
 }
 
 .dark p,
@@ -3682,7 +3682,7 @@ li {
 .back-link a {
     text-transform: uppercase;
     font-size: 1rem;
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', 'Trebuchet MS', Helvetica, sans-serif;
 }
 
 article {
