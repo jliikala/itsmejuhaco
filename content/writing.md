@@ -3,7 +3,7 @@ title: "Writing"
 date: 2018-01-04T13:10:19+02:00
 draft: false
 featimg: "https://www.itsmejuha.co/images/split-writing.jpg"
-description: "I'm currently writing exclusively on Medium.com. These are the latest."
+description: "Writing is something I’ve always enjoyed doing, but seldom have in a regular manner. In December 2017, I decided to start building up the habit again by writing something new every week on Medium.com."
 ---
 
 Writing is something I've always enjoyed doing, but seldom have in a regular manner. In December 2017, I decided to start building up the habit again by writing something new every week on **[Medium.com](https://medium.com/@juhaliikala/)**.
