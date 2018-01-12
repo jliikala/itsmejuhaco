@@ -2,8 +2,8 @@
 title: "What's Brewing?"
 date: 2018-01-11T11:10:51+02:00
 draft: false
-featimg: "/images/split-next.jpg"
-description: "Welcome to the "what's brewing?" section of this site. This is where I list some of the stuff I've been recently involved with and also something that I'm going to be working on next."
+featimg: "https://www.itsmejuha.co/images/split-next.jpg"
+description: "Welcome to the 'what's brewing?' section of this site. This is where I list some of the stuff I've been recently involved with and also something that I'm going to be working on next."
 ---
 
 Welcome to the "what's brewing?" section of this site. This is where I list some of the stuff I've been recently involved with and also something that I'm going to be working on next.

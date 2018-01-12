@@ -6,20 +6,15 @@
       <header class="main-header">
       {{ partial "page-header.html" . }}
       </header>
+      <section class="content">
       <article>
         <h1 class="title">{{ .Title }}</h1>
         <div class="post-content">
         {{ .Content }}
         </div>
       </article>
-      <div class="share-bar">
-        <h3>Thanks for reading! Would you mind sharing with friends?</h3>
-        <ul>
-          <li><a class="share-twitter" href="https://twitter.com/intent/tweet?"><i class="fa fa-twitter"></i>Twitter</a></li>
-          <li><a class="share-facebook" href="https://www.facebook.com/dialog/share?"><i class="fa fa-facebook"></i>Facebook</a></li>
-          <li><a class="share-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}&source=JuhaLiikala"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
-        </ul>
-      </div>
+      </section>
+      {{ partial "footer-navi.html" . }}
     </div>
   </div>
 </div>

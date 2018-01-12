@@ -6,10 +6,20 @@
     <description>Recent content on Juha Liikala - Front-End Developer, Pixel Pusher &amp; Globetrotter from Oulu, Finland.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jan 2018 13:10:19 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jan 2018 11:10:51 +0200</lastBuildDate>
     
 	<atom:link href="https://www.itsmejuha.co/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What&#39;s Brewing?</title>
+      <link>https://www.itsmejuha.co/whats-brewing/</link>
+      <pubDate>Thu, 11 Jan 2018 11:10:51 +0200</pubDate>
+      
+      <guid>https://www.itsmejuha.co/whats-brewing/</guid>
+      <description>Welcome to the &amp;ldquo;what&amp;rsquo;s brewing?&amp;rdquo; section of this site. This is where I list some of the stuff I&amp;rsquo;ve been recently involved with and also something that I&amp;rsquo;m going to be working on next.
+What I&amp;rsquo;m Up To Right Now&amp;hellip;  Current Work: Working full-time in front-end development / product design role at Synopsys, building web based tools that help make software safer Writing &amp;amp; Reading: In 2018, I decided to start writing again regularly.</description>
+    </item>
     
     <item>
       <title>Writing</title>
@@ -30,6 +40,15 @@ These are my latest on Medium.com:  So Interneters, where do you hang out these 
       <guid>https://www.itsmejuha.co/reading/</guid>
       <description>I usually read 15-30 minutes each day just before bedtime. I&amp;rsquo;ve found it to be a great way for minimizing screen time in the evening (which I get plenty enough during the daytime already).
 Latest from the book reading list:  The Power Of Habit by Charles Duhigg - Amazon.co.uk Machine, Platform, Crowd by Andrew McAfee and Erik Brynjolfsson - Amazon.co.uk The Fourth Industrial Revolution by Klaus Schwab - Amazon.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.itsmejuha.co/archivesw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.itsmejuha.co/archivesw/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.itsmejuha.co/whats-brewing/</loc>
+    <lastmod>2018-01-11T11:10:51+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.itsmejuha.co/writing/</loc>
     <lastmod>2018-01-04T13:10:19+02:00</lastmod>
   </url>
@@ -13,7 +18,11 @@
   </url>
   
   <url>
-    <loc>https://www.itsmejuha.co/blog/</loc>
+    <loc>https://www.itsmejuha.co/archives/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.itsmejuha.co/archivesw/</loc>
   </url>
   
   <url>
@@ -26,7 +35,7 @@
   
   <url>
     <loc>https://www.itsmejuha.co/</loc>
-    <lastmod>2018-01-04T13:10:19+02:00</lastmod>
+    <lastmod>2018-01-11T11:10:51+02:00</lastmod>
     <priority>0</priority>
   </url>
   

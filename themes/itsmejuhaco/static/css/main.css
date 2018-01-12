@@ -3197,13 +3197,6 @@ body {
     border-style: none
 }
 
-body,
-p,
-a,
-a:hover {
-    color: #333
-}
-
 a,
 a:hover {
     text-decoration: none;
@@ -3627,12 +3620,13 @@ li {
     color: #848d96;
 }
 
+/*
 .dark p,
 .dark ul,
 .dark ol,
 .dark span {
     color: #848d96
-}
+}*/
 
 .dark a,
 .light a {
@@ -3710,6 +3704,8 @@ article .post-content strong {
 article .post-content a {
     font-weight: 700
 }
+
+/* Blog posts */
 
 .fs-split .split-content .blog-post {
     max-width: 740px

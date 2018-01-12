@@ -8,7 +8,7 @@ enableRobotsTXT = true
 
 [permalinks]
 	fixed = ":title/"
-	blog  = ":slug/"
+	archives  = ":slug/"
 
 [[menu.main]]
     name = "Home"
@@ -21,8 +21,13 @@ enableRobotsTXT = true
     identifier = "whats-brewing"
     url = "/whats-brewing/"
 [[menu.main]]
-    name = " Find me on Twitter"
+    name = "Archives"
     weight = -100
+    identifier = "archives"
+    url = "/archives/"
+[[menu.main]]
+    name = " Find me on Twitter"
+    weight = -90
     identifier = "twitterlink"
     url = "https://twitter.com/juhaliikala"
 
