@@ -323,8 +323,8 @@ em {
     .split-lists .split-list {
         width: 90%
     }
-    .footer-navi {
-      font-size: 16px;
+    .footer-navi ul li {
+      float: none;
     }
 }
 
