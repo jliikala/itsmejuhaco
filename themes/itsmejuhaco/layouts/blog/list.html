@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+<div class="fs-split" style="background-image: url('{{ if .IsPage }}{{ $.Param "featimg" }}{{ else }}{{ .Site.Params.coverimage }}{{ end }}');">
+  <div class="split-image"></div>
+  <div class="split-content">
+    <div class="split-content-vertically-center">
+      <header class="main-header">
+      {{ partial "page-header.html" . }}
+      </header>
+      <section class="content">
+        <h1 class="title">List</h1>
+        <ul id="page-list">
+        {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") }}
+        {{ range $paginator.Pages }}
+          <li>
+            <a href='{{ .Permalink }}'>
+                        {{ .Title }}
+            </a>
+            <span>– <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ .Date.Format "January 2, 2006" }}</time></span>
+          </li>
+        {{ end }}
+        </ul>
+      </section>
+      {{ partial "footer-navi.html" . }}
+    </div>
+  </div>
+</div>
+{{ partial "scripts.html" . }}
+{{ partial "footer.html" . }}

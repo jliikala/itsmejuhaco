@@ -2,17 +2,13 @@
 <div class="fs-split">
   <div class="split-image" style="background-image: url('{{ if .IsPage }}{{ $.Param "featimg" }}{{ else }}{{ .Site.Params.coverimage }}{{ end }}');"></div>
   <div class="split-content">
-    <div class="split-content-vertically-center blog-post">
+    <div class="split-content-vertically-center">
       <header class="main-header">
       {{ partial "page-header.html" . }}
       </header>
       <section class="content">
-      <article>
         <h1 class="title">{{ .Title }}</h1>
-        <div class="post-content">
         {{ .Content }}
-        </div>
-      </article>
       </section>
       {{ partial "footer-navi.html" . }}
     </div>
