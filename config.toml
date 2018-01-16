@@ -5,6 +5,7 @@ theme = "itsmejuhaco"
 
 enableEmoji = true
 enableRobotsTXT = true
+disableKinds= ["taxonomy", "taxonomyTerm"]
 
 [permalinks]
 	fixed = ":title/"
