@@ -1,5 +1,17 @@
 {{ partial "header.html" . }}
-<h1>Whoops, nothing was found here.</h1>
-<a href="{{ .Site.BaseURL }}">Back home</a>.
-{{ partial "scripts.html" . }}
+<div class="fs-split">
+  <div class="split-image"></div>
+  <div class="split-content">
+    <div class="split-content-vertically-center">
+      <header class="main-header">
+      {{ partial "page-header.html" . }}
+      </header>
+      <section class="content">
+        <h1>Whoops, nothing was found here.</h1>
+        <a href="{{ .Site.BaseURL }}">Back home</a>.
+        {{ partial "footer-navi.html" . }}
+      </section>
+    </div>
+  </div>
+</div>
 {{ partial "footer.html" . }}
