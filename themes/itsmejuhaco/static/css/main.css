@@ -325,6 +325,14 @@ em {
     }
     .footer-navi ul li {
       float: none;
+      margin-left: 0px;
+    }
+}
+
+@media (min-width: 500px) {
+    .footer-navi ul li {
+      float: left;
+      margin-left: 35px;
     }
 }
 
