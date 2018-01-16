@@ -1,7 +1,7 @@
 ---
 title: "Archives"
 date: 2017-08-23T16:13:08+03:00
-draft: true
+draft: false
 featimg: "https://www.itsmejuha.co/images/split-archives.jpg"
 description: "Old stuff. Archive of guest appearances on other sites &amp; and more. Proceed with caution 😀"
 ---
