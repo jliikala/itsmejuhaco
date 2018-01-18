@@ -32,8 +32,6 @@ disableKinds= ["taxonomy", "taxonomyTerm"]
     identifier = "twitterlink"
     url = "https://twitter.com/juhaliikala"
 
-
-
 [params]
 	author = "Juha Liikala"
 	description = "Juha Liikala is a developer, designer and blogger who has been building websites and software for a living since 2001."
