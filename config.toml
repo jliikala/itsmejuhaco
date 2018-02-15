@@ -47,6 +47,5 @@ disableKinds= ["taxonomy", "taxonomyTerm"]
 	mediumUrl = "https://medium.com/@juhaliikala"
 	facebookUrl = "https://www.facebook.com/juhaliikala"
 	avatar = "https://www.itsmejuha.co/images/avatar_100x100.jpg"
-	FBPage = "https://www.facebook.com/itsmejuhaco/"
 	FBAuthor = "https://www.facebook.com/JuhaLiikala/"
 	newsletter = "http://eepurl.com/cxqFQr"

@@ -7,12 +7,54 @@
       {{ partial "page-header.html" . }}
       </header>
       <section class="content">
-        <h1 class="title">{{ .Title }}</h1>
-        {{ .Content }}
+        <article>
+          <header>
+            <h1 class="title">{{ .Title }}</h1>
+            <div class="post-meta">
+              <span itemprop="author">Juha Liikala</span>
+              <span> on <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ .Date.Format "January 2, 2006" }}</time></span> <span> - {{ .ReadingTime }} minute read</span>
+            </div>
+          </header>
+          <div class="decoration"></div>
+         <section class="post-content" itemprop="articleBody">
+           {{ .Content }}
+         </section>
+         <footer class="entry-footer">
+           <p>Author info here.</p>
+         </footer>
+         <aside class="subscribe">
+           <div class="subscribe-actions">
+    <h3 style="
+    /* font-family:  sans-serif; */
+    font-size: 20px;
+    color: #fff;
+">Subscribe to blog updates?</h3>
+    <p style="
+    font-weight: 500;
+    font-size: 20px;
+    font-style:  italic;
+    width: 80%;
+    margin: 0 auto;
+">Never miss a beat. Get blog updates syndicated to your favorite inbox / feed reader. Instant delivery as soon as new post hits the blogosphere.</p>
+    
+    <button class="email-subs"><i class="fa fa-envelope-o" aria-hidden="true"></i>Subscribe via Email</button>
+    <button class="rss-subs"><i class="fa fa-rss" aria-hidden="true" style="
+    /* color: #FE8A26; */
+"></i>
+Subscribe via RSS</button>
+<!-- <img src="http://adventuredeficit.com/wp-content/uploads/2017/08/Advventure-Deficit-RSS.png" <="" img="" style="
+    height: 80px;
+    margin-top: 20px;
+"> -->
+    <p class="subs-footer" style="
+    margin-top: 20px;
+">Roughly 2 times per month. Unsubscribe anytime.</p>
+</div>
+         </aside> 
+        </article>
       </section>
       {{ partial "footer-navi.html" . }}
     </div>
   </div>
 </div>
-{{ partial "scripts.html" . }}
 {{ partial "footer.html" . }}

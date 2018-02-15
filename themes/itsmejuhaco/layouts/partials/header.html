@@ -19,11 +19,11 @@
 
     <meta name="msvalidate.01" content="C878242C4F07585075E5A16AA4F650F9" />
     <meta name="yandex-verification" content="9fea4479442b0b10" />
-    <meta property="fb:pages" content="1450910078330054" />
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <link rel="canonical" href="{{ .Permalink }}">
+    <!-- If blog post was published elsewhere first (Medium for example), define the canonical url in post Front matter. If this is originally published here, just use permalink -->
+    <link rel="canonical" href="{{ with .Site.Params.canonical }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}">
 
     {{ partial "social-opengraph.html" . }}
     {{ if .IsHome }}{{ partial "google-meta.html" . }}{{ end }}

@@ -4,6 +4,7 @@ date: 2018-01-12T13:01:22+02:00
 draft: true
 featimg: "/images/split-remote-work.jpg"
 description: "I've worked in various remote roles in the past 10 years, whether part-time or full, as a team leader or as a member of a team. There have been numerous challenges along the way and I can honestly say that I still run into similar challenges from time to time. However (and fortunately), I've learned to counter them with careful planning and work strategies. I’d like to share these experiences with you today."
+canonical: "https://www.medium.com"
 ---
 
 *This post was originally published on [Medium](https://medium.com/@juhaliikala).*

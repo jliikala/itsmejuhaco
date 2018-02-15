@@ -13,7 +13,7 @@
         {{ range $paginator.Pages }}
           <li>
             <a href='{{ .Permalink }}'>
-                        {{ .Title }}
+              {{ .Title }}
             </a>
             <span>– <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ .Date.Format "January 2, 2006" }}</time></span>
           </li>
@@ -24,5 +24,4 @@
     </div>
   </div>
 </div>
-{{ partial "scripts.html" . }}
 {{ partial "footer.html" . }}

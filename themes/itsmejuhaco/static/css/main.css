@@ -689,6 +689,10 @@ article .post-content a {
     color: #d23719
 }
 
+.post-meta {
+    margin-bottom: 1rem;
+}
+
 .share-bar {
     text-align: center;
     vertical-align: middle
