@@ -6,18 +6,18 @@
     <description>Recent content on Juha Liikala | Front-End Engineer | Oulu, Finland</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jan 2018 11:10:51 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 11 Jun 2018 16:58:06 +0300</lastBuildDate>
     
 	<atom:link href="https://www.itsmejuha.co/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>What&#39;s Brewing?</title>
-      <link>https://www.itsmejuha.co/whats-brewing/</link>
-      <pubDate>Thu, 11 Jan 2018 11:10:51 +0200</pubDate>
+      <title>Now</title>
+      <link>https://www.itsmejuha.co/now/</link>
+      <pubDate>Mon, 11 Jun 2018 16:58:06 +0300</pubDate>
       
-      <guid>https://www.itsmejuha.co/whats-brewing/</guid>
-      <description>Welcome to the &amp;ldquo;what&amp;rsquo;s brewing?&amp;rdquo; section of this site. This is where I list some of the stuff I&amp;rsquo;ve been recently involved with and also something that I&amp;rsquo;m going to be working on next.
+      <guid>https://www.itsmejuha.co/now/</guid>
+      <description>Welcome to the Now section of this site. This is where I list some of the stuff I&amp;rsquo;ve been recently involved with and also something that I&amp;rsquo;m going to be working on next.
 What I&amp;rsquo;m Up To Right Now&amp;hellip;  Current Work: Working full-time in front-end development / product design role at Synopsys, building web based tools that help make software safer Writing &amp;amp; Reading: In 2018, I decided to start writing again regularly.</description>
     </item>
     

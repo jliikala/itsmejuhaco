@@ -17,10 +17,10 @@ disableKinds= ["taxonomy", "taxonomyTerm"]
     identifier = "home"
     url = "/"
 [[menu.main]]
-    name = "What's brewing?"
+    name = "Now"
     weight = -110
-    identifier = "whats-brewing"
-    url = "/whats-brewing/"
+    identifier = "now"
+    url = "/now/"
 [[menu.main]]
     name = "Archives"
     weight = -100

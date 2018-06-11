@@ -547,8 +547,8 @@ h1 {
 }
 
 h1 {
-    font-size: 54px;
-    line-height: 1.2;
+    font-size: 150%;
+    line-height: 1.15;
     letter-spacing: .4px;
     color: #fff
 }
@@ -655,8 +655,8 @@ a.share-twitter:hover {
 }
 
 .light h1 {
-    font-size: 54px;
-    line-height: 1.2;
+    font-size: 150%;
+    line-height: 1.15;
     letter-spacing: .4px
 }
 
@@ -741,7 +741,7 @@ a.share-twitter:hover {
 
 .footer-navi ul li:last-child a:before {
     font-family: FontAwesome;
-    content: "\f099"
+    content: "\f099";
 }
 
 .footer-navi ul li.current a {
@@ -768,6 +768,27 @@ a.share-twitter:hover {
 
 .footer-navi ul li a:focus {
     outline: 0
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0
+}
+
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto
 }
 
 @media (min-width:800px) {
@@ -800,9 +821,6 @@ a.share-twitter:hover {
         line-height: 2.05rem;
         letter-spacing: -.2px
     }
-    body h1 {
-        font-size: 1.8rem
-    }
     .footer-navi ul li {
         margin-left: 15px
     }
@@ -824,6 +842,12 @@ a.share-twitter:hover {
 .fa.pull-left {
     margin-right: .3em
 }
+
+@media (min-width: 400px){h1{font-size:175%}}
+@media (min-width: 440px){h1{font-size:200%}}
+@media (min-width: 520px){h1{line-height:1.125;font-size:225%}}
+@media (min-width: 600px){h1{font-size:250%}}
+@media (min-width: 1350px){h1{font-size:265%}}
 
 
 /*!
@@ -3829,25 +3853,4 @@ a.share-twitter:hover {
 
 .fa-meetup:before {
     content: "\f2e0"
-}
-
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0
-}
-
-.sr-only-focusable:active,
-.sr-only-focusable:focus {
-    position: static;
-    width: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    clip: auto
 }
