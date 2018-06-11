@@ -791,37 +791,6 @@ a.share-twitter:hover {
     color: #fff
 }
 
-.fact-file {
-    background-color: #0F151B;
-    opacity: .95;
-    width: 250px;
-    color: #848d96;
-    border-left: 30px solid #f69448;
-    padding-left: 15px;
-    padding-right: 45px;
-    font-family: sans-serif
-}
-
-.fact-file h3 {
-    margin-top: 10px;
-    color: #d4d4d4
-}
-
-.fact-file dl {
-    font-size: 1rem
-}
-
-.fact-file dl dt {
-    font-weight: 600;
-    float: left;
-    margin-right: 5px;
-    color: #d4d4d4
-}
-
-.fact-file dl dd {
-    font-size: 1rem
-}
-
 @media (min-width:800px) {
     .fs-split .split-image {
         width: 50%;
