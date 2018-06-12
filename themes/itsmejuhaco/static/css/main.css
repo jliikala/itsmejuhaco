@@ -96,6 +96,12 @@ section {
     display: block;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .content h2,
 .page-header .fullname,
 h2,
