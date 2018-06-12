@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700,900');
+
 a,
 abbr,
 address,
@@ -102,7 +104,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-family: 'Titillium Web','Trebuchet MS', Helvetica, sans-serif;
 }
 
 .footer-navi ul,
@@ -440,7 +442,7 @@ ul {
 .page-header .fullname {
     color: #fff;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 700;
     text-decoration: none;
     border-bottom: 0;
 }
@@ -448,7 +450,7 @@ ul {
 h1,
 h2,
 h3 {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .avatar-link {
@@ -460,7 +462,7 @@ h1 {
     line-height: 1.15;
     letter-spacing: .4px;
     color: #fff;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-family: 'Titillium Web','Trebuchet MS', Helvetica, sans-serif;
 }
 
 h1.title {
@@ -495,7 +497,7 @@ ul {
 }
 
 body {
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-family: 'Titillium Web','Trebuchet MS', Helvetica, sans-serif;
   font-weight: 400;
   font-size: 19px;
   line-height: 29px;
@@ -637,7 +639,7 @@ a.share-twitter:hover {
     padding-bottom: 6px;
     font-size: 14px;
     transition: all .3s ease;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-family: 'Titillium Web','Trebuchet MS', Helvetica, sans-serif;
 }
 
 .footer-navi ul li a.active,
