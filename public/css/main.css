@@ -732,9 +732,6 @@ article .post-content strong {
 }
 
 @media (max-width:1200px) {
-    .fs-split .split-content .split-content-vertically-center {
-        padding: 60px;
-    }
     .content {
         padding: 30px 0;
     }
