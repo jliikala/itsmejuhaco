@@ -704,7 +704,7 @@ article .post-content strong {
     }
     .page-header .fullname {
         display: inline-block;
-        margin: 12px 0 0 12px;
+        margin: 12px 0 0 5px;
     }
 }
 
