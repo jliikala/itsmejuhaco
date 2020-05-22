@@ -5,13 +5,13 @@
   HUGO_VERSION = "0.32.4"
 
 [[redirects]]
-    from = "https://itsmejuha.co/*"
-    to = "https://www.juhaliikala.com/:splat"
-    status = 301
-    force = true
+  from = "https://itsmejuha.co/*"
+  to = "https://www.juhaliikala.com/:splat"
+  status = 301
+  force = true
 
 [[redirects]]
-    from = "https://www.itsmejuha.co/*"
-    to = "https://www.juhaliikaal.com/:splat"
-    status = 301
-    force = true
+  from = "https://www.itsmejuha.co/*"
+  to = "https://www.juhaliikaal.com/:splat"
+  status = 301
+  force = true
