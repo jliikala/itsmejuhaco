@@ -12,6 +12,6 @@
 
 [[redirects]]
   from = "https://www.itsmejuha.co/*"
-  to = "https://www.juhaliikaal.com/:splat"
+  to = "https://www.juhaliikala.com/:splat"
   status = 301
   force = true
